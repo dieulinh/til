@@ -1,0 +1,2 @@
+Start multiple servers with different ports in the same project(specify each process in an process.pid file:
+```rails s -p 3001 -P tmp/pids/server2.pid```
