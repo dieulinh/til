@@ -18,3 +18,7 @@ $ bundle install --without production
 
 # Fix error could not install gem pg 1.8..
 apt-get install postgresql-server-dev-9.3 libpq-dev (mysqlclient-dev)
+
+# Statistics with port and with servcices (ubuntu)
+
+netstat -plntu
