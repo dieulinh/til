@@ -11,3 +11,4 @@ Random tip for myself
  << NaN
  ```
  
+In general, values tend to be set to `undefined` by JavaScript, whereas values are usually set to `null` by the developer
