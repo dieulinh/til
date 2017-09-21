@@ -12,3 +12,17 @@ Random tip for myself
  ```
  
 In general, values tend to be set to `undefined` by JavaScript, whereas values are usually set to `null` by the developer
+
+- Only 9 values are always `false`
+```
+* "" // double quoted empty string literal
+* '' // single quoted empty string literal
+70 JavaScript: Novice to Ninja, 2nd Edition
+* `` // empty template literal
+* 0
+* -0 // considered different to 0 by JavaScript!
+* NaN
+* false
+* null
+* undefined
+```
