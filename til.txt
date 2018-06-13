@@ -22,3 +22,6 @@ apt-get install postgresql-server-dev-9.3 libpq-dev (mysqlclient-dev)
 # Statistics with port and with servcices (ubuntu)
 
 netstat -plntu
+
+# uninitialize git
+rm -rf .git
