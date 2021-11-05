@@ -30,3 +30,8 @@ In general, values tend to be set to `undefined` by JavaScript, whereas values a
 # CSS
 - `calc` for CSS
 ```example: calc(100%-30px) => give you the width/height of the property as you may want```
+
+# POSTGRES
+- Fix the error psql: error: FATAL:  role "postgres" does not exist
+
+* ``` createuser -s postgres ```
