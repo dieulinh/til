@@ -34,4 +34,6 @@ In general, values tend to be set to `undefined` by JavaScript, whereas values a
 # POSTGRES
 - Fix the error psql: error: FATAL:  role "postgres" does not exist
 
-* ``` createuser -s postgres ```
+ ` createuser -s postgres `
+ - Show hba
+ `psql postgres  -c 'show hba_file';`
