@@ -37,3 +37,19 @@ In general, values tend to be set to `undefined` by JavaScript, whereas values a
  ` createuser -s postgres `
  - Show hba
  `psql postgres  -c 'show hba_file';`
+ 
+ - Not start server
+ $ rm -rf /usr/local/var/postgres
+
+# Install the binary
+$ brew install postgresql
+
+# init it
+$ initdb /usr/local/var/postgres
+
+# Start the PostgreSQL server
+$ postgres -D /usr/local/var/postgres
+
+# Create your database
+$ createdb mydb
+
