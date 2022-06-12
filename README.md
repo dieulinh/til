@@ -52,4 +52,5 @@ $ postgres -D /usr/local/var/postgres
 
 # Create your database
 $ createdb mydb
-
+### HEROKU
+heroku buildpacks:add heroku/nodejs -i 1 -a YOUR-APP-NAME to fix chose wrong node engine
